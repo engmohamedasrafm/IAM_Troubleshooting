@@ -22,7 +22,7 @@ The `IAMFullAccess` managed policy grants full permissions over IAM resources, i
 
 #### Policy Example
 
-```json
+``` json
 {
   "Version": "2012-10-17",
   "Statement": [
@@ -47,7 +47,7 @@ The `PowerUserAccess` policy provides broad administrative access except for IAM
 
 ### Custom Policy Example
 
-```json
+``` json
 {
   "Version": "2012-10-17",
   "Statement": [
@@ -71,7 +71,7 @@ If you need `AWSLabsUser` to attach policies across accounts, you can use a comb
 
 ### Source Account Policy Example
 
-```json
+``` json
 {
   "Version": "2012-10-17",
   "Statement": [
