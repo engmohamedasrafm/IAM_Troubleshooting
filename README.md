@@ -57,7 +57,8 @@ The `PowerUserAccess` policy provides broad administrative access except for IAM
       "Resource": "arn:aws:iam::<AccountID>:role/TargetRoleName"
     }
   ]
-} ```
+} 
+```
 
 
 # Option 3: Allow Role Switching with Cross-Account Access
@@ -81,4 +82,5 @@ If you need `AWSLabsUser` to attach policies across accounts, you can use a comb
       "Resource": "arn:aws:iam::<TargetAccountID>:role/TargetRoleName"
     }
   ]
-} ```
+} 
+```
