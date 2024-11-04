@@ -32,7 +32,8 @@ The `IAMFullAccess` managed policy grants full permissions over IAM resources, i
       "Resource": "*"
     }
   ]
-} ```
+} 
+```
 
 
 # Option 2: Attach the PowerUserAccess Policy with Additional Custom Permissions
